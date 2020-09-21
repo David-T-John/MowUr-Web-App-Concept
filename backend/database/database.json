@@ -1,0 +1,58 @@
+{
+    "customers":[
+        {
+        "id": "1",
+        "username": "",
+        "fname": "",
+        "lname": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "city": "",
+        "zip": "",
+        "state": "",
+        "orders": [{ "ordernumber": "Order #962", "total": "$30.00", "orderedat": "date string" }, {}]
+        },
+        {
+        "id": "2",
+        "username": "",
+        "fname": "",
+        "lname": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "city": "",
+        "zip": "",
+        "state": "",
+        "orders": []
+        }
+    ],
+    "partners":[
+        {
+        "id": "1",
+        "username": "",
+        "fname": "",
+        "lname": "",
+        "email": "",
+        "phone": "",
+        "addresses": [],
+        "city": "",
+        "zip": "",
+        "state": "",
+        "orders": []
+        },
+        {
+        "id": "2",
+        "username": "",
+        "fname": "",
+        "lname": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "city": "",
+        "zip": "",
+        "state": "",
+        "orders": []
+        }
+    ]
+}

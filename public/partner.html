@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="./css/partner.css">
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet"  type='text/css'></link>    
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@0.2.0/dist/lottie-player.js"></script>
+
+    <title>MowUr | Your grass cut on demand. Get Service or Apply to Mow today</title>
+</head>
+
+<body>
+    <header id="header">
+        <a href="/public/index.html"><img id="logo" src="./img/mowur-small-logo.png" alt="logo"></img></a>        
+        <ul id="desktopNavListLeft">
+            <li class="desktopNavItem"><a id="menuNavItem" href="#">MENU</a></li>
+        </ul>
+        <ul id="desktopNavList">
+            <li class="desktopNavItem"><a href="/public/index.html">CUSTOMER</a></li>
+            <li class="desktopNavItem"><a id="activeDesktopNav" href="#">PARTNER</a></li>
+            <li class="desktopNavItem"id="loginMenuBtn"><a href="#">LOGIN</a></li>
+        </ul>
+
+        <button id="mobileMenuToggle">&#9776</button>
+        <div id="menuContent" class="menuContent" >
+            <button id="closeBtn">✖</button>
+            <button class="accordion">CUSTOMER</button>
+            <div class="accordContent">
+                <ul class="accordionContent">
+                    <li class="innerMenuItem"><a href="/public/get-service.html">Get Service</a></li>
+                    <li class="innerMenuItem"><a href="/public/cities.html">Cities</a></li>
+                    <li class="innerMenuItem"><a href="/public/contact-us.html">Contact Us</a></li>
+                    <li class="innerMenuItem"><a href="/public/account-customer.html">Account</a></li>
+                </ul>
+            </div>
+            <button class="accordion">PARTNER</button>
+            <div class="accordContent">
+                <ul class="accordionContent">
+                    <li class="innerMenuItem"><a href="/public/partner.html">Apply to Mow</a></li>
+                    <li class="innerMenuItem"><a href="/public/overview.html">Overview</a></li>
+                    <li class="innerMenuItem"><a href="https://www.verifly.com">Get Insurance</a></li>
+                    <li class="innerMenuItem"><a href="www.thehomedepot.com">Get Equipment</a></li>
+                    <li class="innerMenuItem"><a href="/public/contact-us.html">Contact Us</a></li>
+                    <li class="innerMenuItem"><a href="/public/account-partner.html">Account</a></li>
+                </ul>
+            </div>    
+            <button class="accordion">COMPANY</button>
+            <div class="accordContent">
+                <ul class="accordionContent">
+                    <li class="innerMenuItem"><a href="#">Why MowUr: Cities</a></li>
+                    <li class="innerMenuItem"><a href="/public/community.html">Community</a></li>
+                    <li class="innerMenuItem"><a href="/public/press.html">Press</a></li>
+                    <li class="innerMenuItem"><a href="/public/environment.html">Environment</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div id="loginMenu">
+        <a id="closeLoginMenuBtn">✖</a>
+        <a id="loginCustomerBtn" href="/public/login-customer.html">CUSTOMER LOGIN</a>
+        <a id="loginPartnerBtn" href="/public/login-partner.html">PARTNER LOGIN</a>
+        
+    </div>
+    <div id="loginOverlay"></div>
+    <div id="desktopMenuWrap">
+        <div class="desktopMenu" id="desktopMenuContent">
+            <div class="desktopMenuColumn">
+                <h3 class="desktopMenuLabel">CUSTOMER</h3>
+                <ul>
+                    <li class="desktopMenuItem"><a href="/public/get-service.html">Get Service</a></li>
+                    <li class="desktopMenuItem"><a href="/public/register-customer.html">Sign Up Free</a></li>
+                    <li class="desktopMenuItem"><a href="#">See Reviews</a></li>
+                    <li class="desktopMenuItem"><a href="/public/cities.html">Cities</a></li>
+                    <li class="desktopMenuItem"><a href="/public/contact-us.html">Contact Us</a></li>
+                    <li class="desktopMenuItem"><a href="/public/account-customer.html">Account</a></li>
+                </ul>
+            </div>
+            <div class="desktopMenuColumn">
+                <h3 class="desktopMenuLabel">PARTNER</h3>
+                <ul>
+                    <li class="desktopMenuItem"><a href="/public/register-partner.html">Apply to Mow</a></li>
+                    <li class="desktopMenuItem"><a href="/public/overview.html">Overview</a></li>
+                    <li class="desktopMenuItem"><a href="/public/cities.html">Cities</a></li>
+                    <li class="desktopMenuItem"><a href="https://www.thehomedepot.com/c/finance">Get Equipment</a></li>
+                    <li class="desktopMenuItem"><a href="https://www.verifly.com">Get Insurance</a></li>
+                    <li class="desktopMenuItem"><a href="/public/account-partner.html">Account</a></li>
+                </ul>
+            </div>
+            <div class="desktopMenuColumn">
+                <h3 class="desktopMenuLabel">COMPANY</h3>
+                <ul>
+                    <li class="desktopMenuItem"><a href="/public/careers.html">Careers</a></li>
+                    <li class="desktopMenuItem"><a href="/public/community.html">Community</a></li>
+                    <li class="desktopMenuItem"><a href="/public/press.html">Press</a></li>
+                    <li class="desktopMenuItem"><a href="/public/about.html">About</a></li>
+                </ul>
+            </div>
+            <div class="desktopMenuColumn">
+                <h3 class="desktopMenuLabel">DOWNLOAD</h3>
+                <ul>
+                    <li class="desktopMenuItem"><button class ="footerMenuButton" href="#">MOWUR APP CUSTOMER</button></li>
+                    <li class="desktopMenuItem"><button  class ="footerMenuButton" href="#">MOWUR APP PARTNER</button></li>
+                </ul>
+                <h3 class="desktopMenuLabel" id="followUsLabel">FOLLOW US</h3>
+                <ul id="followIconsList">
+                    <li><a class="followIcon" href="https://facebook.com/mowurcom"><i class="fa fa-facebook"></i></a></li><li><a class="followIcon" href="https://instagram.com/mowur"><i class="fa fa-instagram"></i></a></li><li><a class="followIcon"><i class="fa fa-youtube"></i></a></li>
+
+                </ul>
+            </div>
+        </div>
+    </div>    
+    <div id="sectionOneWrapper">
+        <div id="columnOne">
+            <h1 id="headline">Become your own boss today with MowUr</h1>
+            <h2 id="subHead">Earn when you want to and get paid fast!</h2>
+            <div class="buttonWrapper">
+                <a id="applyBtn" href="/public/register-partner.html">APPLY TO MOW</a>
+                <br>
+                <a id="learnMoreBtn" href="/public/overview.html">LEARN MORE</a>
+            </div>    
+            <br id="break1">
+            <br>
+        </div>
+
+        <div id="columnTwo">
+
+        </div>
+    </div>
+    <div id="sectionTwoWrapper">
+        <div class="valuePoint">
+            <div class="iconWrapper"><i id="plane-icon"class="fa fa-plane icons whiteIcon" ></i></div></br>
+            <h3 class="titleText">Reliable Earnings</h3>
+            <p class="underscore">_</p>
+            <p class="description">Easily manage your orders whether you're in town, downtown, or out of town - we've got you covered.</p>
+        </div>
+        <div class="valuePoint">
+            <div class="iconWrapper"><i class="fa fa-dollar icons whiteIcon" ></i></div></br>
+            <h3 class="titleText">A few requirements</h3>
+            <p class="underscore">_</p>
+            <p class="description">In addition to mowing, we'll edge and blow any debris from your pavement so your home always looks it's best.</p>
+        </div>
+        <div class="valuePoint">
+            <div class="iconWrapper"><i class="fa fa-dollar icons whiteIcon"></i></div></br>
+            <h3 class="titleText">Direct Deposit</h3>
+            <p class="underscore">_</p>
+            <p class="description">Have peace of mind knowing you're paying the best price every time with our competitive and standardized rates.</p>
+        </div>
+        <!-- <div class="valuePoint">
+            <div class="iconWrapper"><i class="fa fa-unlock icons whiteIcon"></i></div></br>
+            <h3 class="titleText">No Contracts Ever</h3>
+            <p class="underscore">_</p>
+            <p class="description">Lose your contract and get in control today. Get service when you need it, and only when you need it.</p>
+        </div>
+        <div class="valuePoint">
+            <div class="iconWrapper"><i class="fa fa-shield icons whiteIcon"></i></div></br>
+            <h3 class="titleText">Money Back Guarantee</h3>
+            <p class="underscore">_</p>
+            <p class="description">We're so sure that you'll be satisfied with your service that we're backing it with a 100% money back guarantee. Believe it.</p>
+        </div> -->
+
+    </div>
+    <div class="section2-5">
+        <img src="/public/img/MowUrPartner.png" id="mowurPartnerImg"alt="">
+    </div>
+    <h2 id="reviewsLabel">See what our customers are saying.</h2>
+    <div id="sectionThreeWrapper"class="sectionThree">
+        
+        <div class="reviewCard">
+            <i class="fa fa-star"></i><i class="fa fa-star" ></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+            <p class="reviewText">Professional and a job well done!</p>
+            <p class="customerName">Leslie B.</p>
+            <p class="verifiedTag">Verified Customer</p>
+        </div>
+        <div class="reviewCard">
+            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+            <p class="reviewText">This is a great concept! Sooo simple and straight-forward that I really didnt expect it to work out right... but it did! [MowUr Partner] showed up in front of the house in less than 4 hours after I ordered the service and did an awesome job harvesting the mess that was my yard. He was also personable and smart... don't get that every day.</p>
+            <p class="customerName">Eric B.</p>
+            <p class="verifiedTag">Verified Customer</p>
+        </div>
+        <div class="reviewCard">
+            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+            <p class="reviewText">Super convenient. My usual yard guy is out sick so I needed a substitute. They took care of me the same day that I found the site. I will use it again.</p>
+            <p class="customerName">Erin P.</p>
+            <p class="verifiedTag">Verified Customer</p>
+        </div>
+    </div>
+    <div id="sectionFourWrapper">
+        <h2 id="partnerHeadline">Get started today</h2>
+        <p id="termsApply">Terms Apply*</p>
+        <!-- <input class ="checkboxClass" type="checkbox" name="termsCheckbox" id="termsCheckbox"><p id="termsText">I have read the Terms and Conditions</p></input> -->
+        <button id="partnerBtn2">APPLY TO MOW</button>
+    </div>
+    <div class="footerMenu">
+        <div class="footerMenuColumn">
+            <h3 class="footerMenuLabel">CUSTOMER</h3>
+            <ul>
+                <li class="footerMenuItem"><a href="/public/get-service.html">Get Service</a></li>
+                <li class="footerMenuItem"><a href="#">See Reviews</a></li>
+                <li class="footerMenuItem"><a href="/public/cities.html">Cities</a></li>
+                <li class="footerMenuItem"><a href="/public/contact-us.html">Contact Us</a></li>
+                <li class="footerMenuItem"><a href="/public/account-customer.html">Account</a></li>
+            </ul>
+        </div>
+        <div class="footerMenuColumn">
+            <h3 class="footerMenuLabel">PARTNER</h3>
+            <ul>
+                <li class="footerMenuItem"><a href="/public/register-partner.html">Apply to Mow</a></li>
+                <li class="footerMenuItem"><a href="/public/overview.html">Overview</a></li>
+                <li class="footerMenuItem"><a href="/public/cities.html">Cities</a></li>
+                <li class="footerMenuItem"><a href="https://www.thehomedepot.com/c/finance">Get Equipment</a></li>
+                <li class="footerMenuItem"><a href="https://www.verifly.com">Get Insurance</a></li>
+                <li class="footerMenuItem"><a href="/public/account-partner.html">Account</a></li>
+            </ul>
+        </div>
+        <div class="footerMenuColumn">
+            <h3 class="footerMenuLabel">COMPANY</h3>
+            <ul>
+                <li class="footerMenuItem"><a href="/public/careers.html">Careers</a></li>
+                <li class="footerMenuItem"><a href="/public/community.html">Community</a></li>
+                <li class="footerMenuItem"><a href="/public/press.html">Press</a></li>
+                <li class="footerMenuItem"><a href="/public/about.html">About</a></li>
+            </ul>
+        </div>
+        <div class="footerMenuColumn">
+            <h3 class="footerMenuLabel">DOWNLOAD</h3>
+            <ul>
+                <li class="footerMenuItem"><button class ="footerMenuButton" href="#">MOWUR APP CUSTOMER</button></li>
+                <li class="footerMenuItem"><button  class ="footerMenuButton" href="#">MOWUR APP PARTNER</button></li>
+
+            </ul>
+            <h3 class="footerMenuLabel" id="followUsLabel">FOLLOW US</h3>
+            <ul id="followIconsList">
+                <li><a class="followIcon" href="https://facebook.com/mowurcom"><i class="fa fa-facebook"></i></a></li><li><a class="followIcon" href="https://instagram.com/mowur"><i class="fa fa-instagram"></i></a></li><li><a class="followIcon"><i class="fa fa-youtube"></i></a></li>
+
+            </ul>
+        </div>
+    </div>
+    <footer id="footer"><a href="/public/index.html"><img id="footerIcon" src="./img/MowUr Icon.png" alt=""></a><span class= "footerLinks"><span><a href="#">Terms</a></span><span><a href="#">Privacy</a></span></span><p id="footerText">©Copyright MowUr 2019. All rights reserved.</p></footer>
+    <script src="./js/index.js"></script>
+</body>
+</html>
